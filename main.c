@@ -147,11 +147,11 @@ void cabecalhoPPM(){
 	while(BusyUSART());
 	putcUSART(0x0A);
 	while(BusyUSART());
-	enviaNumANum(widthImgDest);
+	enviaNumANum(widthImgSour);
 	while(BusyUSART());
 	putcUSART(0x20);
 	while(BusyUSART());
-	enviaNumANum(heightImgDest);
+	enviaNumANum(heightImgSour);
 	while(BusyUSART());
 	putcUSART(0x0A);
 	while(BusyUSART());
